@@ -1,0 +1,10 @@
+---
+title: "Paper Summary"
+output: html_document 
+---
+
+### Watson & Crick, 1953
+Watson, J. D., and F. H. Crick. *"Molecular Structure of Nucleic Acids; a Structure for Deoxyribose Nucleic Acid."* Nature 171, no. 4356 (April 25, 1953): 737-38   
+
+In this paper, Watson & Creek wish to suggest the structure of Deoxyribose Nucleic Acid (DNA), which they have refered to as a salt of Deoxyribose Nucleic Acid. A structure for DNA was previously proposed by Pauling and Corey, that pictured the DNA as having three inter-twined chains with the phosphates near the fibre axis, and the bases on the outside. This structure didn't have explanation on how the chains having all negatively charged stayed that close without being repelled. Their proposed structure of DNA consist of two helical chains each coiled around a fibre axis. The two chains are related by a dyad perpendicular to the fibre axis. Each chain consist of bases on te inside and the phosphates on the outside. In this structure, the sugars are being roughly perpendicular to the attached base. The bonding between the bases of a chain to the base of other chain makes the two chains to stick together. Purine base of a chain is hydrogen bonded with pyrimidine base of the other chain. This bonding are perpendicular to the fibre axis. This bonding is said to be in a way such that purine position 1 bonds to pyrimidine position 1, and also position 6 of purine bonds to position 6 of pyrimidine. Due to this specific base pairing, it is possible to come up with the sequence of a chain given the sequence of the other chain. Previously available x-ray data was insufficient to prove their proposed structure, so they wanted the work to be regarded as unproved until the structure is checked against more exact results. They finally specified that their proposed specific base pairing suggest for possible copying mechanism for the genetic material. The paper acknowlegdes the help and support they received from different individuals and papers.
+
