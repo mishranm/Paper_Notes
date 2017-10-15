@@ -21,3 +21,11 @@ Watson, J. D., and F. H. Crick. *"Molecular Structure of Nucleic Acids; a Struct
 ## Expression profiling; best practices for data generation and interpretation in clinical trials
 
   This papar talks about the importance of Microarrays for mRNA transcript expression level detection and analysis. These microarrays are being used increasinly in clinical trials. Due to regulations in clinical trials, microarry technology and the data generated must have clear set standards for its use. This paper tries to find the best practice for data generation and its interpretation, so it can be used in clinical trials. For this, groups like *Microarray Gene Expression Data* (MGED) society, *Minimum Information About A Microarray Experiment* (MIAME), and the MAGE-ML mark-up language are step closer to aquaring unity and standarizing the procedure on how to approach to the obtaining of and interpretation of genomic data. The paper tries to show the key differences between Affymetric arrays, spotted cDNA, and spotted oligonucleotide. The paper also describes how and where could there be possible variation in the data and recommends the best practice to experimental designs. 
+  
+---
+
+## Points of Significance: Sources of Variation.
+
+This article is written by Naomi **Altman and Martin Krzywinski,** and was published in "Natrue Methods" on 30th December 2014. This article describes different sources of variation in biological experiments, and how should they be dealt with. Amount of variability determines the ability to replicate (internal validity) and generalization to the entire population (external valildity). controlling the variablibity will make the experiment more replicable but it will negatively effect on making the outcome to more general population.So, the paper talks about balancing these two factor while controlling for the variablity. For biological experiments, one should try to reduce the variablity just enough to make the experiment/outcome both reproducible and be generalized to the wider population.The paper also talks about how these different sources of variabilities can be used to infer about the effective sample size.Paper describes different sources that contribute to the overall variation. One needs to determine the source where the variation is coming from to effectively take care of that variation.
+
+
