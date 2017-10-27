@@ -29,3 +29,18 @@ Watson, J. D., and F. H. Crick. *"Molecular Structure of Nucleic Acids; a Struct
 This article is written by Naomi **Altman and Martin Krzywinski,** and was published in "Natrue Methods" on 30th December 2014. This article describes different sources of variation in biological experiments, and how should they be dealt with. Amount of variability determines the ability to replicate (internal validity) and generalization to the entire population (external valildity). controlling the variablibity will make the experiment more replicable but it will negatively effect on making the outcome to more general population.So, the paper talks about balancing these two factor while controlling for the variablity. For biological experiments, one should try to reduce the variablity just enough to make the experiment/outcome both reproducible and be generalized to the wider population.The paper also talks about how these different sources of variabilities can be used to infer about the effective sample size.Paper describes different sources that contribute to the overall variation. One needs to determine the source where the variation is coming from to effectively take care of that variation.
 
 
+---
+
+## A Comparison of Normalization Methods for High Density Oligonucleotide Array Data Based on Variance and Bias.
+ 
+This paper is written by B.M Boland at al.and was published in *Bioinformatics* journal volume 19 in 2003. In this paper, writer compares the different methods of normalizing microarray data. Normalization is a method of reducing data into more manageable and meaningful state. In the paper, they compare the performance of three complete data methods of normalization and then compare each of those method to the methods that uses baseline array instead of using complete array data. Three complete data methods compared were, *cyclic Loess*, *contrast based method*, and *quantile normalization*. Among these three methods, quantile normalization method was found to perform slightly better than other two methods. In terms of speed, quantile method was again found to perform better than other two methods that uses complete data. 
+The two methods that are described in this paper that uses baseline array for normalization are *scaling method*, and *non-linear method*. Non-linear method was found to perform much closer to quantile method when 27-spike in array data was analyzed. Over all, quantile method of normalization performed well in most circumstances and was the recommended method to use for normalization of microarray data.
+
+
+---
+
+## Locally Weighted Regression: An Approach to Regression Analysis by Local Fitting.
+
+This article was published in a *Journal of American Statistical Association* in september 1988, and was written by Willim s. Cleveland and Susan J. Devlin. In the paper, the writers describe about a method of estimating a regression surface through a multivariate smoothing procedure called *Loess*. The article shows how *Loess* can be used for various purpose, such as data exploration, diagnostic checking of parametric models, and provideing a non-parametric regression surface. *Loess* can not only be used in microarray data, but in variety of circumstances and data types. The paper describes few of the areas where *loess* is appropriate. As an example in the paper, *loess* method is used for measuring velocity of galaxies, to estimate concentration of ozone, both by locally weighted regression. It extensively describes the uses and advantages of using *loess* method for regression analysis, but it also highlights the restriction and few drawbacks of using *loess*, a locally fitted regression.
+
+
