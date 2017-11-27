@@ -56,3 +56,22 @@ This article was published by *Proceedings of the National Academy of Science* v
 ## Linear MOdels and Empirical Bayes Methods for Assessing Differential Expression in Microarray Experiments.
 
 This article was published by *Statistical Applications in Genetics and Molecular Biology* in 2004, volume 3, issue 1, article 3. It is written by Gordon K. Smyth. This paper discuss the problem of identifying genes that are differentially expressed in designed microarray experiments, and how they propose to solve the problem. Smith, in this paper propose to develop the hierarchical model based on the model Lonnstedt and Speed (2002) introdueced, to counter the problem. A close form estimators for the hyperparameters are derived using marginal distributions of the observed statistics. Then the posterior odds statistic is reforulated in terms of a moderated t-statistic in which posterior residual standard deviations are used in place of ordinary standard deviations. This results in a shrinkage of the gene-wise residual sample variances towards a common value, resulting in more stable inference. Inference is done with the moderated t-statistic, which is equivalent to B-statistics, and doesn't depend on hyperparameters unlike the B-statistics. Simulation study showed that the moderated t-statistics had the lowest false discovery rate and highest receiver operating curves (ROCs), among other methods compared. 
+
+
+
+
+---
+
+## Controlling the False Discovery Rate: a Practical and Poweful Approach to Multiple Testing
+
+This article was published in 1995, *Royal Statistical Society* and is written by Yoav Benjamini and Yosef Hochberg. This article describes the challenges we face in analyzing genomic data, where there are multiple test being carried simultaneously, and provides the methods to counter those challenges. It describes how the family wise error rate (FWER), and classical multiple-comparison procedures (MCPs) has drawbacks and are conservative in approach. The paper propose a method to counter the problem of multiple testing called False Discovery Rate (FDR). FDR is an expected proportion of errors among the rejected hypothesis. Paper also shows that FDR not only works better than the other methods but also implies weak control of FWER and is more powerful method. In the simulation study they carried to test for the power of the three methods, FDR method was crealy better than other two overall. 
+
+
+
+---
+
+## Statistical Significance for Genomewide Studies
+
+This article was published in *Proceedings of the National Academy of Science* , august 5th 2005, volume 100, and the article is written by John D. Storey and Robert Tibshirani. This article propose a *q* value, which is an extension to the False Discovery Rate (FDR) a method discussed in earlier article. The paper further emphasize in the validity of the FDR method of multiple testing and introduce the *q* value which is a measure significance in terms of FDR, unlike *p* a measure of significance in terms of false positive rate. FDR as author mention is a first step to multiple testing but does not explain for the individual features and the *q* value that they propose provide this. Mathematically, *q* value for a test (*i*)is the mininum FDR that can be attained when calling that feature significant. 
+
+
