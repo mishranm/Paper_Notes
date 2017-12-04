@@ -74,4 +74,15 @@ This article was published in 1995, *Royal Statistical Society* and is written b
 
 This article was published in *Proceedings of the National Academy of Science* , august 5th 2005, volume 100, and the article is written by John D. Storey and Robert Tibshirani. This article propose a *q* value, which is an extension to the False Discovery Rate (FDR) a method discussed in earlier article. The paper further emphasize in the validity of the FDR method of multiple testing and introduce the *q* value which is a measure significance in terms of FDR, unlike *p* a measure of significance in terms of false positive rate. FDR as author mention is a first step to multiple testing but does not explain for the individual features and the *q* value that they propose provide this. Mathematically, *q* value for a test (*i*)is the mininum FDR that can be attained when calling that feature significant. 
 
+---
 
+## Ontologies in Biology: Design, Applications and Future Challenges
+
+This article, written by Jonathan B.L.Bard and Seung Y. Rhee, was published by *Nature Reviews* on March 2004. This article explains how the advancement in technologies and science is providing immense amount of data to the public, but with the challenge of interpretation. As a solution to this interpretation and understanding problem, the article describes an importance of having a platform, called Ontology in Biology, which includes various subtypes with the platform. The article singles out those ontology type and explains how each of the ontology provides knowledge in microarray studies. Gene ontology, cell ontology, anatomical ontology, are the subtype of the broad biological ontology. Each ontology contains an ontology ID, which can be used to link between various platform for indepth knowledge using all kinds of ontologies. The Bio-ontologies have wide variety of use, from representation of knowledge in a computer-comprehensible way to annotaion and analysis of large-scale data with ontology IDs.
+
+
+---
+
+## Gene Set Enrichment Analysis: Performance Evaluation and Usage Guidelines
+
+This article written by Jui-Hung Hung, et.al, was published by *Oxford University Press* in 2011. In this article, writers evaluate the approach to gene set enrichment analysis and explains each steps of the process. Further, the article also mentions that there is no gold standard to gene set enrichment, it is difficult to compare the performance of different gene set-level statistics. They performed a comparison between analytical background  and simulated background to check for the validity, and found that it was more accurate to use simulated background than analytical background. This backround information is used in estimating the significance in gene-set enrichment analysis. In gene-set enrichment analysis, the predictors are assumed to be orthogonal and is not the case most offen. For this, they proposed a Controlled Mutual Coverage (CMC) method, which takes care of the dependency between the predictors. when they tested their method with 132 experimental data sets, they found that the method substantially diminished the correlation. 
